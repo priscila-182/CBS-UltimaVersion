@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="12sp">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:padding="10dp"
+        android:background="#FAF8F8">
+
+        <ImageView
+            android:id="@+id/ab_image"
+            android:layout_width="110dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/soyleyenda" />
+
+        <TextView
+            android:id="@+id/ab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ab_image"
+            android:fontFamily="@font/acme"
+            android:text="Soy Leyenda"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ab_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ab_title"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="26dp"
+            android:layout_toRightOf="@+id/ab_image"
+            android:padding="10dp"
+            android:text="Autor: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ab_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ab_author"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/ab_image"
+            android:padding="10dp"
+            android:text="Género: "
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/ab_numeroPaginas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ab_genre"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/ab_image"
+            android:padding="10dp"
+            android:text="Páginas: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ab_desc"
+            android:layout_width="311dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/ab_image"
+            android:layout_marginLeft="-109dp"
+            android:layout_marginTop="29dp"
+            android:layout_toRightOf="@+id/ab_image"
+            android:padding="8dp"
+            android:text="Robert Neville es el único superviviente de una guerra bacteriológica que ha asolado el planeta..."
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

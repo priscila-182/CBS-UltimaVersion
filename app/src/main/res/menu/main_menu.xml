@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="Inicio"
+            android:icon="@drawable/menuprincipal"/>
+
+        <item
+            android:id="@+id/nav_Libros"
+            android:title="Libros"
+            android:icon="@drawable/libros"/>
+
+        <item
+            android:id="@+id/nav_categorias"
+            android:title="Categorias"
+            android:icon="@drawable/menu"/>
+
+        <item
+            android:id="@+id/nav_IngresarLibro"
+            android:title="Agregar Libro"
+            android:icon="@drawable/libronuevo"/>
+
+        <item android:title="Acciones">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/perfil"
+                        android:icon="@drawable/ic_person"
+                        android:title="Perfil"/>
+                    <item
+                        android:id="@+id/logOut"
+                        android:icon="@drawable/logout"
+                        android:title="Cerrar sesión"/>
+                </group>
+            </menu>
+        </item>
+
+    </group>
+</menu>

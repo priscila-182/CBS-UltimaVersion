@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/acme</item>
+        <item>@font/anonymous_pro_bold</item>
+        <item>@font/antic</item>
+        <item>@font/anton</item>
+        <item>@font/bungee</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/chewy</item>
+        <item>@font/coiny</item>
+        <item>@font/oswald</item>
+        <item>@font/oswald_extralight</item>
+        <item>@font/oswald_light</item>
+    </array>
+</resources>

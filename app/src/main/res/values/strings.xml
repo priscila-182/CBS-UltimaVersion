@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App-CBSV2.0</string>
+
+    <string name="seach_text">Buscar...</string>
+    <string name="uno">TODOS LOS LIBROS DISPONIBLES</string>
+    <string name="descripcion_libros">Disponibles en diversas categorías</string>
+    <string name="masVistos">Libros más vistos</string>
+    <string name="view_all">Ver todos</string>
+    <string name="categorias">Categorías</string>
+
+    <!-- GÉNEROS -->
+
+    <string name="Accion">Acción</string>
+    <string name="Fantasía">Fantasía</string>
+    <string name="Horror">Horror</string>
+    <string name="Romance">Romance</string>
+
+    <!-- MENU -->
+
+    <string name="titulo_categorias"><font color='white'>Categorías</font></string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_mapa">MapaActivity</string>
+    <string name="googleApi">AIzaSyDgy4lrO_ZyrGzJCXH4O2pOVCpQKKeJQS8</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

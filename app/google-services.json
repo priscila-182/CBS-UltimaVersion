@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "470463741082",
+    "firebase_url": "https://cbs-app-f469d-default-rtdb.firebaseio.com",
+    "project_id": "cbs-app-f469d",
+    "storage_bucket": "cbs-app-f469d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470463741082:android:f1c1c30a333d0d28847323",
+        "android_client_info": {
+          "package_name": "com.priscilahuentemilla.cbs_versionoriginal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470463741082-ou51ikg3k84bf6tfae7no8petsks76s1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.priscilahuentemilla.cbs_versionoriginal",
+            "certificate_hash": "07e5edcaa6fd402d2fa5436d80da546eac3624bd"
+          }
+        },
+        {
+          "client_id": "470463741082-bvqrim6149ngua3updqgv70f0b7htb0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdiZJkS6JFD8xThHyEElWNisr2XD7eeFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470463741082-bvqrim6149ngua3updqgv70f0b7htb0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

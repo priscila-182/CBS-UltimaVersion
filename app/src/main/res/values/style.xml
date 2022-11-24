@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <!-- estilo del menú -->
+    <style name="navigationTheme">
+
+        <!-- Color de texto y icono cuando SELECCIONA -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- color de fondo cuando SELECCIONA -->
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeWidth">8dp</item>
+
+    </style>
+
+</resources>

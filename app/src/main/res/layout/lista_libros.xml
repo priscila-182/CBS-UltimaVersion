@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+
+    <!-- Titulo -->
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:text="Título:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:textSize="20sp"
+        android:text="xxxx"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Autor -->
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:text="Autor(a):"
+        android:layout_below="@id/lblTitulo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/autor"
+        android:textSize="20sp"
+        android:text="xxxx"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/titulo"
+        android:layout_toRightOf="@id/lblAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Genero -->
+
+    <TextView
+        android:id="@+id/lblGenero"
+        android:text="Género:"
+        android:layout_below="@id/lblAutor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/genero"
+        android:textSize="20sp"
+        android:text="xxxx"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/autor"
+        android:layout_toRightOf="@id/lblAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Páginas -->
+
+    <TextView
+        android:id="@+id/lblPaginas"
+        android:text="Autor(a):"
+        android:layout_below="@id/lblGenero"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/paginas"
+        android:textSize="20sp"
+        android:text="000"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/genero"
+        android:layout_toRightOf="@id/lblPaginas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
